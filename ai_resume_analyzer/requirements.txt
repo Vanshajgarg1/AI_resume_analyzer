@@ -1,8 +1,8 @@
 # Core AI/LLM Framework
-langchain>=0.2
+langchain==0.1.20
 langchain-groq>=0.1
-langchain-core>=0.2
-langchain-community>=0.2
+langchain-core>=0.1.52
+langchain-community>=0.0.38
 
 # Resume Parsing
 pypdf>=4.0
@@ -11,12 +11,11 @@ python-docx>=1.0
 # Streamlit UI
 streamlit>=1.35
 
-# Data manipulation (keyword table in app)
+# Data manipulation
 pandas>=2.0
 
 # Utilities
 python-dotenv>=1.0
 
-# NLP (optional but recommended for local skill extraction)
-# After install, run: python3 -m spacy download en_core_web_sm
+# NLP
 spacy>=3.7
